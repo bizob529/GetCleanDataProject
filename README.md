@@ -13,10 +13,10 @@ For this project, data from Samsung Galaxy S smartphones was collected and clean
 
 In this repository, you will find the following files:
 
-        *README.md
-        *Codebook.md
-        *run_analysis.R
-        *TidyDataSet2_Averages.txt
+        * README.md
+        * Codebook.md
+        * run_analysis.R
+        * TidyDataSet2_Averages.txt
         
 This `README.md` file will walk you through the use of the other files in this repository. Information about the datasets can be found in the `Codebook.md` file. The script that reads and cleans the data is `run_analysis.R`. The `TidyDataSet2.txt` file is a tidy dataset produced by a function defined in the R script. 
 
