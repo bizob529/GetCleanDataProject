@@ -32,10 +32,10 @@ The mean and standard deviation were selected from the original data using the `
 
 The feature names of the data have been rewritten to improve readability.
 
-The prefix `t` was replaced with `Time`
-The prefix `f` was replaced with `Freq` (frequency, shortened for space)
-The variable text `-mean()-` was replaced with `Mean`
-The variable text `-std()-` was replaced with `Std`
-The variable text `-meanFreq()-` was replaced with `MeanFreq`
-The variable text `BodyBody` was replaced with `Body`
++The prefix `t` was replaced with `Time`
++The prefix `f` was replaced with `Freq` (frequency, shortened for space)
++The variable text `-mean()-` was replaced with `Mean`
++The variable text `-std()-` was replaced with `Std`
++The variable text `-meanFreq()-` was replaced with `MeanFreq`
++The variable text `BodyBody` was replaced with `Body`
         
