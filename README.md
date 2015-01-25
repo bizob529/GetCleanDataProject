@@ -44,10 +44,11 @@ This `README.md` file will walk you through the use of the other files in this r
 The `run_analysis.R` file is heavily commented to provide insight into each of the statements written to produce the tidy datasets. The script has inside of it 3 functions: `createFirstTidy`, `createSecondTidy`, and `createTidyData`. 
 
 The `createFirstTidy` function completes the first 4 steps in the Course Project assignment:
-        *Merges the training and test sets from the UCI HAR Dataset to create one data set
-        *Extracts only the measurements on the mean and std dev for each measurement
-        *Uses descriptive activity names to name the activities in the dataset
-        *Appropriately labels the data set with descriptive variable names
+
+        - Merges the training and test sets from the UCI HAR Dataset to create one data set
+        - Extracts only the measurements on the mean and std dev for each measurement
+        - Uses descriptive activity names to name the activities in the dataset
+        - Appropriately labels the data set with descriptive variable names
         
 The `createSecondTidy` function pulls in a dataset and uses `melt` to transform it and then `dcast` to aggregate on *subject* and *activity* variable means. This is used to satisfy the 5th step in the Course Project assignment.
 
