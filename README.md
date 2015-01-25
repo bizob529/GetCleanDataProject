@@ -26,7 +26,7 @@ This `README.md` file will walk you through the use of the other files in this r
 ***
 
         1. Download the `run_analysis.R` script and move it into your R working directory.
-        2. Go to the UCI website linked at the top and download the zip file with the data folder. 
+        2. Go to the UCI website linked at the top and download the zip file with the data. 
         3. Unzip the file and paste the "UCI HAR Dataset" folder into your working directory.
         4. If you haven't already done so, install the `plyr` and `reshape2` R packages.
         5. Load/attach both packages into your R workspace with the `library` function.
@@ -34,7 +34,7 @@ This `README.md` file will walk you through the use of the other files in this r
         7. Execute the function `createTidyData()` with no arguments.
         8. Verify that two files have been written into your working directory: 
                 *TidyDataSet1_Complete - All data, cleaned and polished
-                *TidyDataSet2_Averages - Condensed version of the above data showing only averages for each activity and subject
+                *TidyDataSet2_Averages - Condensed version of the above data showing averages.
 
 
 ##How the script works
