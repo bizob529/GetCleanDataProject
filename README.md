@@ -13,10 +13,10 @@ For this project, data from Samsung Galaxy S smartphones was collected and clean
 
 In this repository, you will find the following files:
 
-        - README.md
-        - Codebook.md
-        - run_analysis.R
-        - TidyDataSet2_Averages.txt
+* README.md
+* Codebook.md
+* run_analysis.R
+* TidyDataSet2_Averages.txt
         
 This `README.md` file will walk you through the use of the other files in this repository. Information about the datasets can be found in the `Codebook.md` file. The script that reads and cleans the data is `run_analysis.R`. The `TidyDataSet2.txt` file is a tidy dataset produced by a function defined in the R script. 
 
@@ -45,10 +45,10 @@ The `run_analysis.R` file is heavily commented to provide insight into each of t
 
 The `createFirstTidy` function completes the first 4 steps in the Course Project assignment:
 
-        - Merges the training and test sets from the UCI HAR Dataset to create one data set
-        - Extracts only the measurements on the mean and std dev for each measurement
-        - Uses descriptive activity names to name the activities in the dataset
-        - Appropriately labels the data set with descriptive variable names
+* Merges the training and test sets from the UCI HAR Dataset to create one data set
+* Extracts only the measurements on the mean and std dev for each measurement
+* Uses descriptive activity names to name the activities in the dataset
+* Appropriately labels the data set with descriptive variable names
         
 The `createSecondTidy` function pulls in a dataset and uses `melt` to transform it and then `dcast` to aggregate on *subject* and *activity* variable means. This is used to satisfy the 5th step in the Course Project assignment.
 
